@@ -21,3 +21,9 @@ Para esta aplicación necesitas Node.js.
 Por el momento el proyecto no cuenta con diseño responsive, está disponible para versión mobile (Iphone SE).
 Es un proyecto que sigue en ejecución por lo que puede llegar a presentar inconvenientes. 
 En la sección de las preguntas cuando se pasa de una a la otra pregunta queda marcada la respuesta. Por lo que toca desmarcarla y marcar la que ud considere que es la correcta. 
+
+Para el manejo de persistencias de datos se realizo en Firebase manejando una bd no relacional. Se adjunta una imagen de ello
+
+![image](https://user-images.githubusercontent.com/90538425/166132698-d9b01674-2f17-4071-96a2-8c3c8eea3240.png)
+ 
+ A medida que se van creando más usuarios se le va registrando los debidos datos. Cada id es para un usuario distinto. 
