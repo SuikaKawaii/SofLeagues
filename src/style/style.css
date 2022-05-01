@@ -1,0 +1,42 @@
+/* Footer */
+.fijada{
+    position:fixed;
+    z-index:1000;
+    bottom:0;
+    width: 100%;
+    height: auto;
+    color: #DDDDDD;    
+    background-color: #72757E; 
+    
+}
+.me-auto{
+    margin: 0 2% 0 5%;
+    background-color: #72757E;
+    /* height: 30px; */
+    
+}
+.image{
+    width: 35px;
+    margin-left: 5px;
+    background-color: #72757E;   
+}
+
+.item{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 2% 0 5%;
+    background-color: #72757E;  
+    font-weight: bold;  
+}
+.item:hover {
+    color: #DEB6AB;
+}
+.di{
+    background-color: #72757E;
+   
+}
+/* Spinner */
+.spinner{
+    margin: 45% 45%;
+    justify-content: center;
+}

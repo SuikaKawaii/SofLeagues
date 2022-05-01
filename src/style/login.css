@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Comforter+Brush&family=Fuzzy+Bubbles&family=Indie+Flower&family=Island+Moments&family=Josefin+Sans:ital,wght@0,700;1,300&family=Moon+Dance&family=Nunito:wght@400;600&family=Rubik&family=Shadows+Into+Light&family=Shizuru&family=Special+Elite&family=Spline+Sans:wght@300&display=swap');
+*{
+    background-color: #232E35;
+    color:#DDDDDD;
+    font-family: 'Indie Flower', cursive;
+}
+.google{
+    background-color: #EF4565;   
+    margin-right: 2%; 
+    font-weight: bold;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    margin-left: 16px;    
+    margin-right: 16px;
+} 
+p{
+    margin-left: 45px;
+    font-size: 17px;
+}
+p a{
+    margin-left: 8px;
+    color: #2CB67D;
+    font-size: 17px;
+    text-decoration: none;
+}
+.inscripcion:hover{
+    color: #82A284;
+}
+.contraOlvida{
+    margin-left: 80px;
+    margin-top: 35px;
+    color: #2CB67D;
+    font-size: 17px;
+}
+.contraOlvida:hover{
+    color: #82A284;
+}
+@media (min-width: 900px){
+    .btnLogin{
+        margin: 25px 0 18px 88px;
+        width: 20%;
+        margin-left: 38%;      
+    }
+    .contraOlvida{
+        margin-left: 42.5%;
+    }
+    p{
+        margin-left: 40%;
+        
+    }
+    p a{
+        margin-left: 8px;
+        
+    }
+    .inputUser{
+        width: 25%;
+        margin-left: 28%;
+    }
+    .labelEmail{
+        margin-left: 30%;
+    }
+    .inputPass{
+        width: 25%;
+        margin-left: 35%;
+    }
+}
+
