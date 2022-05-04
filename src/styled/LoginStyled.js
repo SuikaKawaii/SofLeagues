@@ -8,7 +8,9 @@ export const StyledLogin = styled.img`
     margin-top: 65px; 
     border-radius: 50%; 
     @media (min-width: 900px){
-        width: 15%;
+        width: 5%;
+        margin-left: 46%;
+        margin-top: 2%;
     } 
     
 `
@@ -16,6 +18,12 @@ export const Introduction = styled.p`
     text-align: center;
     margin: 0 5% 5% 5%;
     font-size: 14px;
+    @media (min-width: 900px){
+        width: 30%;
+        margin-left: 34%;
+        font-size: 13px;
+        margin-bottom: 1%;
+    }
 `
 export const StyledButton = styled.button`
     background-color: #EF4565;
@@ -29,8 +37,9 @@ export const StyledButton = styled.button`
     border-radius: 8px;
     @media (min-width: 900px){
         width: 30%;
-        margin-left: 32%;
+        margin-left: 35%;
         border-radius: 5px;
+        margin-top: 0;
     }
     
 `
@@ -40,10 +49,12 @@ export const StyledH1 = styled.h1`
     color: #DDDDDD;
     font-weight: bold;
     @media (min-width: 900px){
-        margin-left: 41%;
+        margin-left: 43%;
+        margin-top: 2%;
+        font-size: 30px;
+        
     }
 `
-
 export const ButtonLog = styled(Button)`
     background-color: #2CB67D;
     border-color: #2CB67D;
@@ -56,7 +67,7 @@ export const ButtonLog = styled(Button)`
     @media (min-width: 900px){
         margin-bottom: 2%;
         width: 30%;
-        margin-left: 33%;
+        margin-left: 35%;
     }
 `
 export const InputEmail = styled.input`
@@ -64,6 +75,10 @@ export const InputEmail = styled.input`
     margin: 1% 25% 0 25%;
     height: 20px;
     padding: 10px;
+    @media (min-width: 900px){
+        margin-left: 53%;
+        width: 55%;
+    }
 `
 export const InputPassword = styled.input`
     border-radius: 5px; 

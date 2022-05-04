@@ -7,6 +7,10 @@ export const Img = styled.img`
     margin: 10px 10px 20px 5px;
     width: 35%;
     height: 85px;
+    @media (min-width: 900px){
+        width: 20%;
+
+    }
 ` 
 
 export const Div1 = styled.div`
@@ -14,20 +18,23 @@ export const Div1 = styled.div`
     margin-top: 10%;
     width: 80%;
     @media (min-width: 940px){
-        margin-left: 45%;
-        margin-top: 3%;
+        margin-left: 47.5%;
+        margin-top: 0;
+        width: 50%;
     }
 `
 export const Div2 = styled.div`
     margin-left: 18%;
     @media (min-width: 940px){
         margin-left: 42%;
+        width: 50%;
     }
 `
 export const Div3 = styled.div`
     margin-left: 18%;
     @media (min-width: 940px){
         margin-left: 42%;
+        width: 50%;
     }
     
 `
@@ -37,7 +44,7 @@ export const Title = styled.h2`
     color: #DDDDDD;
     @media (min-width: 940px){
         margin-left: 65%;
-        margin: 7%;
+        margin: 4%;
     }
 
 `

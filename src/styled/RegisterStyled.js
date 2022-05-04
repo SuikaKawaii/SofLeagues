@@ -7,7 +7,7 @@ export const Form = styled.form`
     align-items: center;
     justify-content: center;
     @media (min-width: 900px){
-        margin-top: 5%;
+        margin-top: 2%;
     }
 `
 export const Imagen = styled.img`
@@ -15,7 +15,8 @@ export const Imagen = styled.img`
     width: 25%;
     border-radius: 50%;
     @media (min-width: 900px){
-        width: 15%;
+        width: 5%;
+        margin-left: 48%;
     }
 `
 export const Label = styled.label`
@@ -24,6 +25,7 @@ export const Label = styled.label`
     margin-bottom: 2%;
     @media (min-width: 900px){
         margin-bottom: 1%;
+        margin-left: 40%;
     }
 `
 export const Input = styled.input`
@@ -36,6 +38,8 @@ export const Input = styled.input`
     padding: 8px;
     @media (min-width: 900px){
         margin-bottom: 1%;
+        width: 20%;
+        margin-left: 40%;
     }
 
 `
@@ -50,8 +54,9 @@ export const Input = styled.input`
     font-size: 15px;
     font-weight: bold;
     @media (min-width: 900px){
-        margin-left: 26.5%;
-        
+        margin-left: 40%;
+        width: 20%;
+        margin-bottom: 2%;
     }
 
  `
@@ -60,7 +65,8 @@ export const Title = styled.h2`
     margin-left: 38.5%;
     font-weight: bold;
     @media (min-width: 900px){
-        margin-left: 15%; 
+        margin-left: 45%; 
+        margin-top: 1%;
     }
 `
 export const LinkReg = styled(Link)`
@@ -73,8 +79,17 @@ export const LinkReg = styled(Link)`
     &:hover{
         color: green;
     }
+    @media (min-width: 900px){
+        margin-left: 48%;
+    }
 `
 export const H6 = styled.h6`
     text-align: center;
     margin: 0 5% 0 5%;
+    @media (min-width: 900px){
+        width: 30%;
+        margin-top: 1%;
+        margin-left: 35%;
+        font-size: 13px;
+    }
 `
